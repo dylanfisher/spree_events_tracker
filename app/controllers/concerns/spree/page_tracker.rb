@@ -43,7 +43,8 @@ module Spree
     end
 
     def event_trackable?
-      show_action? || index_action?
+      # show_action? || index_action?
+      false
     end
 
     %w(index show).each do |_action_|
